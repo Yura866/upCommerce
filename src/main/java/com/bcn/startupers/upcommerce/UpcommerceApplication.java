@@ -3,6 +3,7 @@ package com.bcn.startupers.upcommerce;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
 @SpringBootApplication
 public class UpcommerceApplication {
 
