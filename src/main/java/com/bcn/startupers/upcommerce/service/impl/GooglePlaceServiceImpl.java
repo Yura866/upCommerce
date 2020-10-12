@@ -11,7 +11,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.bcn.startupers.upcommerce.dto.GooglePlaceDTO;
 import com.bcn.startupers.upcommerce.service.GooglePlaceService;
 import com.bcn.startupers.upcommerce.utils.GoogleApiUtils;
 import com.google.maps.FindPlaceFromTextRequest;
@@ -23,15 +22,13 @@ import com.google.maps.errors.ApiException;
 import com.google.maps.model.FindPlaceFromText;
 import com.google.maps.model.PlacesSearchResult;
 
-import lombok.extern.slf4j.Slf4j;
-
 /**
  * 
  * @author yhuzo
  *
  */
 
-@Slf4j
+
 @Service
 public class GooglePlaceServiceImpl implements GooglePlaceService {
 	

@@ -4,20 +4,18 @@ import java.net.URLEncoder;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
-
 import com.google.maps.GeoApiContext;
 
 
-@Slf4j
+
 @Component
 public class GoogleApiUtils {
 	
 	private static Logger log = LoggerFactory.getLogger(GoogleApiUtils.class);
 	
-	private static final String URL_ENCODER_UTF8="UTF-8";	
+	public static final String URL_ENCODER_UTF8="UTF-8";	
 
 
 	@Value("${google.maps.geocode.core.url}")
